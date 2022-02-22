@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Comportamientos_P3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F8C7AD85-59B0-4269-9863-6A685AFE740A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Comportamientos_P3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Comportamientos_P3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{294EE7CD-780D-47FE-9027-F16EDE2F4270}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Comportamientos_P3">
+      <UniqueIdentifier>{3E071724-9D0A-44C1-A18C-4464CE3DBF51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Comportamientos_P3\Comportamientos_P3.Build.cs">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Comportamientos_P3\Comportamientos_P3.cpp">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Comportamientos_P3\Comportamientos_P3.h">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Comportamientos_P3\Comportamientos_P3Character.cpp">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Comportamientos_P3\Comportamientos_P3Character.h">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Comportamientos_P3\Comportamientos_P3GameMode.cpp">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Comportamientos_P3\Comportamientos_P3GameMode.h">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Comportamientos_P3\Comportamientos_P3PlayerController.cpp">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Comportamientos_P3\Comportamientos_P3PlayerController.h">
+      <Filter>Source\Comportamientos_P3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+C:\Users\Soker\Desktop\PRACTICAS_UI\Comportamientos_P3\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3\Definitions.Comportamientos_P3.h
+C:\Users\Soker\Desktop\PRACTICAS_UI\Comportamientos_P3\Source\Comportamientos_P3\Comportamientos_P3.h
