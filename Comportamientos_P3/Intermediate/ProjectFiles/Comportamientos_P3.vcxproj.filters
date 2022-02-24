@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Comportamientos_P3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F8C7AD85-59B0-4269-9863-6A685AFE740A}</UniqueIdentifier>
+      <UniqueIdentifier>{77B41C48-D253-4423-B0E0-E53E5EAC328E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Comportamientos_P3.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{294EE7CD-780D-47FE-9027-F16EDE2F4270}</UniqueIdentifier>
+      <UniqueIdentifier>{306B88CC-272F-47F0-B3A0-9B4AE35EB11A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Comportamientos_P3">
-      <UniqueIdentifier>{3E071724-9D0A-44C1-A18C-4464CE3DBF51}</UniqueIdentifier>
+      <UniqueIdentifier>{1D0C7758-130F-4998-BA4D-3DD9B1C66849}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Comportamientos_P3\Comportamientos_P3.Build.cs">
       <Filter>Source\Comportamientos_P3</Filter>

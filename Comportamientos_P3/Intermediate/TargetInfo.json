@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Comportamientos_P3",
-			"Path": "C:\\Users\\Soker\\Desktop\\PRACTICAS_UI\\Comportamientos_P3\\Source\\Comportamientos_P3.Target.cs",
+			"Path": "C:\\Users\\guillermo.suarez\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3\\Source\\Comportamientos_P3.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Comportamientos_P3Editor",
-			"Path": "C:\\Users\\Soker\\Desktop\\PRACTICAS_UI\\Comportamientos_P3\\Source\\Comportamientos_P3Editor.Target.cs",
+			"Path": "C:\\Users\\guillermo.suarez\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3\\Source\\Comportamientos_P3Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
