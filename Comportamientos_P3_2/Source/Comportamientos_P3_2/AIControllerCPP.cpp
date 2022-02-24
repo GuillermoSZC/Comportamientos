@@ -5,6 +5,8 @@
 #include "BrainComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "TargetPointCPP.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "Runtime/Engine/Public/EngineUtils.h"
 
 
@@ -31,4 +33,54 @@ void AAIControllerCPP::UpdateNextTargetPoint()
 		}
 	}
 	pBlackboardComponent->SetValueAsInt("TargetPointIndex", (iTargetPointIndex + 1));
+}
+
+void AAIControllerCPP::CheckNearbyEnemy()
+{
+	APawn* pPawn = GetPawn();
+
+	FVector MultiSphereStart = pPawn->GetActorLocation();
+
+	FVector MultiSphereEnd = MultiSphereStart + FVector(0, 0, 15.f);
+
+	TArray<TEnumAsByte<EObjectTypeQuery>>ObjectTypes;
+	ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
+
+	TArray<AActor*> ActorsToIgnore;
+	ActorsToIgnore.Add(pPawn);
+
+	TArray<FHitResult> OutHits;
+
+	bool bResult = UKismetSystemLibrary::SphereTraceMultiForObjects(GetWorld(),
+		MultiSphereStart,
+		MultiSphereEnd,
+		700,
+		ObjectTypes,
+		false,
+		ActorsToIgnore,
+		EDrawDebugTrace::ForDuration,
+		OutHits,
+		true);
+
+	UBlackboardComponent* BlackboardComponent = BrainComponent->GetBlackboardComponent();
+
+	if (!bResult)
+	{
+		for (int32 i = 0; i < OutHits.Num(); ++i)
+		{
+			FHitResult Hit = OutHits[i];
+
+			APawn* pPlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+
+			if (Hit.GetActor() == pPlayerPawn)
+			{
+				BlackboardComponent->SetValueAsObject("TargetActorToFollow", pPlayerPawn);
+				break;
+			}
+		}
+	}
+	else
+	{
+		BlackboardComponent->SetValueAsObject("TargetActorToFollow", NULL);
+	}
 }

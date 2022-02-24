@@ -16,11 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Comportamientos_P3_2_Source_Comportamientos_P3_2_AIControllerCPP_h_15_SPARSE_DATA
 #define Comportamientos_P3_2_Source_Comportamientos_P3_2_AIControllerCPP_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCheckNearbyEnemy); \
 	DECLARE_FUNCTION(execUpdateNextTargetPoint);
 
 
 #define Comportamientos_P3_2_Source_Comportamientos_P3_2_AIControllerCPP_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execCheckNearbyEnemy); \
 	DECLARE_FUNCTION(execUpdateNextTargetPoint);
 
 

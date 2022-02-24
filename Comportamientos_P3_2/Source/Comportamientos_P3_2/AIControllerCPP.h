@@ -18,4 +18,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Ejercicio")
 		void UpdateNextTargetPoint();
+
+	UFUNCTION(BlueprintCallable, Category = "Ejercicio")
+		void CheckNearbyEnemy();
 };
