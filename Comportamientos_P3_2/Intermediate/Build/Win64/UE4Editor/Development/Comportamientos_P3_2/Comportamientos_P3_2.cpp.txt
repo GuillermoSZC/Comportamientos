@@ -1,0 +1,2 @@
+C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\Definitions.Comportamientos_P3_2.h
+C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Source\Comportamientos_P3_2\Comportamientos_P3_2.h

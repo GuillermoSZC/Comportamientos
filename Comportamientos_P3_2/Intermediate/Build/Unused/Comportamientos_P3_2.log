@@ -1,0 +1,32 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos).
+  Creating makefile for Comportamientos_P3_2Editor (game project files are newer)
+  Parsing headers for Comportamientos_P3_2Editor
+    Running UnrealHeaderTool "C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Comportamientos_P3_2.uproject" "C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\Comportamientos_P3_2Editor\Development\Comportamientos_P3_2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\guillermo.suarez\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for Comportamientos_P3_2Editor in 4,1919214 seconds
+  Building Comportamientos_P3_2Editor...
+  Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 19 actions with 36 processes...
+    [1/19] Default.rc2
+    [2/19] SharedPCH.Engine.ShadowErrors.cpp
+    [3/19] Comportamientos_P3_2.cpp
+    [4/19] TargetPointCPP.cpp
+    [5/19] Comportamientos_P3_2.init.gen.cpp
+    [6/19] TargetPointCPP.gen.cpp
+    [7/19] Comportamientos_P3_2PlayerController.gen.cpp
+    [8/19] Comportamientos_P3_2GameMode.cpp
+    [9/19] Comportamientos_P3_2GameMode.gen.cpp
+    [10/19] Comportamientos_P3_2Character.gen.cpp
+    [11/19] Comportamientos_P3_2Character.cpp
+    [12/19] Comportamientos_P3_2PlayerController.cpp
+    [13/19] AIControllerCPP.gen.cpp
+    [14/19] UpdateNextTargetPointBTTaskNode.gen.cpp
+    [15/19] UpdateNextTargetPointBTTaskNode.cpp
+    [16/19] AIControllerCPP.cpp
+    [17/19] UE4Editor-Comportamientos_P3_2.lib
+       Creating library C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\UE4Editor-Comportamientos_P3_2.lib and object C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\UE4Editor-Comportamientos_P3_2.exp
+    [18/19] UE4Editor-Comportamientos_P3_2.dll
+       Creating library C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\UE4Editor-Comportamientos_P3_2.suppressed.lib and object C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\UE4Editor-Comportamientos_P3_2.suppressed.exp
+    [19/19] Comportamientos_P3_2Editor.target
+  Total time in Parallel executor: 22,76 seconds
+  Total execution time: 29,47 seconds
