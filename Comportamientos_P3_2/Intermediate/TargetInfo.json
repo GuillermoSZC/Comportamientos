@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Comportamientos_P3_2",
-			"Path": "C:\\Users\\guillermo.suarez\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3_2\\Source\\Comportamientos_P3_2.Target.cs",
+			"Path": "C:\\Users\\Soker\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3_2\\Source\\Comportamientos_P3_2.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Comportamientos_P3_2Editor",
-			"Path": "C:\\Users\\guillermo.suarez\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3_2\\Source\\Comportamientos_P3_2Editor.Target.cs",
+			"Path": "C:\\Users\\Soker\\Documents\\GitHub\\Comportamientos\\Comportamientos_P3_2\\Source\\Comportamientos_P3_2Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -4,6 +4,7 @@
 #include "CheckNearbyEnemyBTService.h"
 #include "BrainComponent.h"
 #include "TargetPointCPP.h"
+#include "AIControllerCPP.h"
 #include "Runtime/Engine/Public/EngineUtils.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
@@ -11,7 +12,7 @@ void UCheckNearbyEnemyBTService::TickNode(UBehaviorTreeComponent& OwnerComp, uin
 {
 	Super::TickNode(OwnerComp, NodeMemory, DeltaSeconds);
 
-	AAIController* AIController = Cast<AAIController>(OwnerComp.GetOwner());
+	AAIControllerCPP* AIContr = Cast<AAIControllerCPP>(OwnerComp.GetOwner());
 	
-	AIController->CheckNearbyEnemy();
+	AIContr->CheckNearbyEnemy();
 }

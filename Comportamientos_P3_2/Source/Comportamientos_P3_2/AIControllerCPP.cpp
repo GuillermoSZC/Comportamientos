@@ -64,7 +64,7 @@ void AAIControllerCPP::CheckNearbyEnemy()
 
 	UBlackboardComponent* BlackboardComponent = BrainComponent->GetBlackboardComponent();
 
-	if (!bResult)
+	if (bResult)
 	{
 		for (int32 i = 0; i < OutHits.Num(); ++i)
 		{
@@ -83,4 +83,17 @@ void AAIControllerCPP::CheckNearbyEnemy()
 	{
 		BlackboardComponent->SetValueAsObject("TargetActorToFollow", NULL);
 	}
+}
+
+EPathFollowingRequestResult::Type AAIControllerCPP::MoveToEnemy()
+{
+	//UE_LOG(LogTemp, Warning, TEXT("ENTRA..................................................................."));
+
+	UBlackboardComponent* BlackboardComponent = BrainComponent->GetBlackboardComponent();
+	
+	AActor* HeroCharacterActor = Cast<AActor>(BlackboardComponent->GetValueAsObject("TargetActorToFollow"));
+	
+	EPathFollowingRequestResult::Type MoveToActorResult = MoveToActor(HeroCharacterActor);
+	
+	return MoveToActorResult;
 }

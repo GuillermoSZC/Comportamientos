@@ -1,6 +1,6 @@
-C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\Definitions.Comportamientos_P3_2.h
-C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Source\Comportamientos_P3_2\Comportamientos_P3_2PlayerController.h
-C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Inc\Comportamientos_P3_2\Comportamientos_P3_2PlayerController.generated.h
+C:\Users\Soker\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Development\Comportamientos_P3_2\Definitions.Comportamientos_P3_2.h
+C:\Users\Soker\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Source\Comportamientos_P3_2\Comportamientos_P3_2PlayerController.h
+C:\Users\Soker\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Inc\Comportamientos_P3_2\Comportamientos_P3_2PlayerController.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Blueprint/AIBlueprintHelperLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIBlueprintHelperLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime/Engine/Classes/Components/DecalComponent.h
@@ -14,11 +14,11 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestureConfig.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
-C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Source\Comportamientos_P3_2\Comportamientos_P3_2Character.h
+C:\Users\Soker\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Source\Comportamientos_P3_2\Comportamientos_P3_2Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\guillermo.suarez\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Inc\Comportamientos_P3_2\Comportamientos_P3_2Character.generated.h
+C:\Users\Soker\Documents\GitHub\Comportamientos\Comportamientos_P3_2\Intermediate\Build\Win64\UE4Editor\Inc\Comportamientos_P3_2\Comportamientos_P3_2Character.generated.h

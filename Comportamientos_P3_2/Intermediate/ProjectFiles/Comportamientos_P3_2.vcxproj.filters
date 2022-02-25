@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Comportamientos_P3_2.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{19CA965A-81D9-4873-B449-88012D8B02FE}</UniqueIdentifier>
+      <UniqueIdentifier>{A7230D5A-DEA9-45E4-9626-F46DBF9CF82C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Comportamientos_P3_2.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7ADF3BE4-D968-4648-B165-824A54DFBBEC}</UniqueIdentifier>
+      <UniqueIdentifier>{CD6D3874-A3D9-4DF2-9739-EA572EAA19B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Comportamientos_P3_2">
-      <UniqueIdentifier>{DBCBE9DC-FC7B-4867-9B69-6DD544293A4F}</UniqueIdentifier>
+      <UniqueIdentifier>{4C4F0249-DE8C-4752-970B-9D4CDD72DEE9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Comportamientos_P3_2\AIControllerCPP.cpp">
       <Filter>Source\Comportamientos_P3_2</Filter>
@@ -69,6 +69,12 @@
       <Filter>Source\Comportamientos_P3_2</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Comportamientos_P3_2\Comportamientos_P3_2PlayerController.h">
+      <Filter>Source\Comportamientos_P3_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Comportamientos_P3_2\MoveToEnemyBTTaskNode.cpp">
+      <Filter>Source\Comportamientos_P3_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Comportamientos_P3_2\MoveToEnemyBTTaskNode.h">
       <Filter>Source\Comportamientos_P3_2</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Comportamientos_P3_2\TargetPointCPP.cpp">

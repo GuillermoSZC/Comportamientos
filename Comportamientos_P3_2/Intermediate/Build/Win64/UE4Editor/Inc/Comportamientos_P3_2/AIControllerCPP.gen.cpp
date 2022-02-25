@@ -17,7 +17,15 @@ void EmptyLinkFunctionForGeneratedCodeAIControllerCPP() {}
 	COMPORTAMIENTOS_P3_2_API UClass* Z_Construct_UClass_AAIControllerCPP();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_Comportamientos_P3_2();
+	AIMODULE_API UEnum* Z_Construct_UEnum_AIModule_EPathFollowingRequestResult();
 // End Cross Module References
+	DEFINE_FUNCTION(AAIControllerCPP::execMoveToEnemy)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TEnumAsByte<EPathFollowingRequestResult::Type>*)Z_Param__Result=P_THIS->MoveToEnemy();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AAIControllerCPP::execCheckNearbyEnemy)
 	{
 		P_FINISH;
@@ -37,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeAIControllerCPP() {}
 		UClass* Class = AAIControllerCPP::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CheckNearbyEnemy", &AAIControllerCPP::execCheckNearbyEnemy },
+			{ "MoveToEnemy", &AAIControllerCPP::execMoveToEnemy },
 			{ "UpdateNextTargetPoint", &AAIControllerCPP::execUpdateNextTargetPoint },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -61,6 +70,39 @@ void EmptyLinkFunctionForGeneratedCodeAIControllerCPP() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAIControllerCPP_CheckNearbyEnemy_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics
+	{
+		struct AIControllerCPP_eventMoveToEnemy_Parms
+		{
+			TEnumAsByte<EPathFollowingRequestResult::Type> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIControllerCPP_eventMoveToEnemy_Parms, ReturnValue), Z_Construct_UEnum_AIModule_EPathFollowingRequestResult, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Ejercicio" },
+		{ "ModuleRelativePath", "AIControllerCPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAIControllerCPP, nullptr, "MoveToEnemy", nullptr, nullptr, sizeof(AIControllerCPP_eventMoveToEnemy_Parms), Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -107,6 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeAIControllerCPP() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAIControllerCPP_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAIControllerCPP_CheckNearbyEnemy, "CheckNearbyEnemy" }, // 3858975716
+		{ &Z_Construct_UFunction_AAIControllerCPP_MoveToEnemy, "MoveToEnemy" }, // 1826141796
 		{ &Z_Construct_UFunction_AAIControllerCPP_UpdateNextTargetPoint, "UpdateNextTargetPoint" }, // 3237161760
 	};
 #if WITH_METADATA
@@ -144,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeAIControllerCPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAIControllerCPP, 3380807511);
+	IMPLEMENT_CLASS(AAIControllerCPP, 2389937301);
 	template<> COMPORTAMIENTOS_P3_2_API UClass* StaticClass<AAIControllerCPP>()
 	{
 		return AAIControllerCPP::StaticClass();
