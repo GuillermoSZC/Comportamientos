@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Comportamientos_P5",
+			"Path": "C:\\Users\\Soker\\Documents\\GitHub\\Comportamientos\\Comportamientos_P5\\Source\\Comportamientos_P5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Comportamientos_P5Editor",
+			"Path": "C:\\Users\\Soker\\Documents\\GitHub\\Comportamientos\\Comportamientos_P5\\Source\\Comportamientos_P5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
